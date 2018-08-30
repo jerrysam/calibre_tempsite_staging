@@ -1068,7 +1068,6 @@ header {
     position: relative;
     top: -1em;
     color: #888888;
-    text-transform: uppercase;
     letter-spacing: 0.075em; }
   header.major {
     border-bottom-width: 1px;
@@ -1202,8 +1201,7 @@ textarea {
 ::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.5;
-  position: relative;
-  top: 3px; }
+  position: relative; }
 
 :-moz-placeholder {
   color: inherit;
