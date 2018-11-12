@@ -1,0 +1,60 @@
+.header {
+	z-index: 99;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 18px 0;
+
+	
+	&__container {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		position: relative;
+		display: inline-block;
+		z-index: 1;
+		color: white;
+		border-bottom: none;
+
+		img {
+			height: 25px;
+		}
+	}
+	&__nav { 
+		text-align: right;
+		transition: right .2s ease-out;
+		width: 40%;
+    	margin: auto;
+	}
+
+	&__nav-list {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 0;
+	}
+
+	&__nav-item {
+		color: #ffffff;
+		font-size: 16px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-weight: 600;
+
+		&:hover {
+			color: rgba(255, 255, 255, .75);
+		}
+
+		a {
+			padding: 10px 10px 6px 10px;
+			border-bottom: none;
+			color: white;
+		}
+
+	}
+
+}

@@ -1,5 +1,47 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+.header {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 18px 0; }
+  .header__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    color: white;
+    border-bottom: none; }
+    .header__logo img {
+      height: 25px; }
+  .header__nav {
+    text-align: right;
+    transition: right .2s ease-out;
+    width: 40%;
+    margin: auto; }
+  .header__nav-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0; }
+  .header__nav-item {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600; }
+    .header__nav-item:hover {
+      color: rgba(255, 255, 255, 0.75); }
+    .header__nav-item a {
+      padding: 10px 10px 6px 10px;
+      border-bottom: none;
+      color: white; }
+
 /*
 	Directive by HTML5 UP
 	html5up.net | @ajlkn
