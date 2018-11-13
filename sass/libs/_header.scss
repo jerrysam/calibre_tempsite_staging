@@ -26,16 +26,16 @@
 		}
 	}
 	&__nav { 
-		text-align: right;
 		transition: right .2s ease-out;
-		width: 40%;
-		min-width: 330px;
+		width: 650px;
     margin: auto;
 	}
 
 	&__nav-list {
 		display: flex;
 		flex-direction: row;
+		flex-flow: wrap;
+		justify-content: center;
 		margin-bottom: 0;
 	}
 
@@ -45,6 +45,7 @@
 		text-transform: uppercase;
 		letter-spacing: 3px;
 		font-weight: 600;
+    min-width: 160px;
 
 		&:hover {
 			color: rgba(255, 255, 255, .75);
