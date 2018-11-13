@@ -24,6 +24,7 @@
     text-align: right;
     transition: right .2s ease-out;
     width: 40%;
+    min-width: 330px;
     margin: auto; }
   .header__nav-list {
     display: flex;

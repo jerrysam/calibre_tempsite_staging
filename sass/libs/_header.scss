@@ -29,7 +29,8 @@
 		text-align: right;
 		transition: right .2s ease-out;
 		width: 40%;
-    	margin: auto;
+		min-width: 330px;
+    margin: auto;
 	}
 
 	&__nav-list {
