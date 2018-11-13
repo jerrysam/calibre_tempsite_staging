@@ -151,7 +151,7 @@ em, i {
   font-style: italic; }
 
 p, ul, ol, dl, table, blockquote, form {
-  margin: 0 0 2em 0; }
+  margin: 0 0 1em 0; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #5b5b5b;
@@ -1140,11 +1140,9 @@ header {
       margin: 0; }
     header.major p {
       top: 0;
-      margin: 1.5em 0 0 0;
-      padding: 1.5em 1.5em 0 1.5em;
+      padding: 0 1.5em 0 1.5em;
       font-size: 1.5em;
       line-height: 1.75em;
-      border-top: solid 1px rgba(224, 224, 224, 0.75);
       display: inline-block; }
     header.major.last {
       border-bottom: 0;
