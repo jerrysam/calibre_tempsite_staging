@@ -204,6 +204,12 @@
 		padding: 1em 0 1em 2em;
 	}
 
+/* Smooth Scroll across the document */
+	html {
+	  scroll-behavior: smooth;
+	}
+
+
 /* Container */
 
 	.container {
