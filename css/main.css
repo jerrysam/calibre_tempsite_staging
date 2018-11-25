@@ -1627,7 +1627,10 @@ input[type="button"],
     padding-top: 0; }
 
 /* Header */
-#header {
+.cultureheaderimg {
+  background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../images/family.jpg") !important; }
+
+#header, #cultureheader {
   background-attachment: scroll,							scroll,					fixed;
   background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../images/header.jpg");
   background-position: bottom center,					top left,				center center;
@@ -1637,37 +1640,40 @@ input[type="button"],
   padding: 10em 0 20em 0;
   position: relative;
   text-align: center; }
-  #header:before, #header:after {
+  #header:before, #header:after, #cultureheader:before, #cultureheader:after {
     background: rgba(224, 224, 224, 0.75);
     content: '';
     left: 50%;
     position: absolute;
     width: 1px;
     z-index: 0; }
-  #header:before {
+  #header:before, #cultureheader:before {
     height: calc(100% - 50px);
     opacity: 0.15;
     top: 0; }
-  #header:after {
+  #header:after, #cultureheader:after {
     bottom: 0;
     height: 50px; }
-  #header a {
+  #header a, #cultureheader a {
     border-bottom-color: rgba(255, 255, 255, 0.35);
     color: rgba(255, 255, 255, 0.8); }
-    #header a:hover {
+    #header a:hover, #cultureheader a:hover {
       border-bottom-color: transparent;
       color: #4eb980; }
-  #header strong, #header b {
+  #header strong, #header b, #cultureheader strong, #cultureheader b {
     color: #ffffff; }
-  #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+  #header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #cultureheader h1, #cultureheader h2, #cultureheader h3, #cultureheader h4, #cultureheader h5, #cultureheader h6 {
     color: #ffffff; }
   #header input[type="submit"],
   #header input[type="reset"],
   #header input[type="button"],
-  #header .button {
+  #header .button, #cultureheader input[type="submit"],
+  #cultureheader input[type="reset"],
+  #cultureheader input[type="button"],
+  #cultureheader .button {
     background: #ffffff;
     color: #544d55; }
-  #header .logo {
+  #header .logo, #cultureheader .logo {
     background: #4eb980;
     border-radius: 100%;
     color: #ffffff;
@@ -1679,13 +1685,13 @@ input[type="button"],
     margin: 0 0 0.75em 0;
     text-align: center;
     width: 2.35em; }
-    #header .logo.fa-paper-plane-o:before {
+    #header .logo.fa-paper-plane-o:before, #cultureheader .logo.fa-paper-plane-o:before {
       left: -0.075em;
       position: relative; }
-  #header h1 {
+  #header h1, #cultureheader h1 {
     font-size: 2.5em;
     margin: 0; }
-  #header p {
+  #header p, #cultureheader p {
     font-size: 1.5em;
     line-height: 1.5em;
     margin: 0.25em 0 0 0; }
